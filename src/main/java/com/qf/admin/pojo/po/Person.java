@@ -3,6 +3,15 @@ package com.qf.admin.pojo.po;
 public class Person {
     private int age;
     private String name;
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public int getAge() {
         return age;
@@ -28,6 +37,7 @@ public class Person {
         return "Person{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
+                ", id=" + id +
                 '}';
     }
 }
